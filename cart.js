@@ -19,7 +19,7 @@ submitButton.addEventListener("click", function() {
     removeButton.innerText = "Remove Item"          //CSS
     const editButton = document.createElement('button') // adds edit button to list
     editButton.style = "width:100px;height:50px;"// Could do this in CSS
-    editButton.innerText = "Edit Item"
+    editButton.innerText = "Edit Item"  //CSS
     list.appendChild(itemText); // adds node to list
     list.appendChild(removeButton); // add button to the list
     list.appendChild(editButton); // add button to the list
@@ -49,7 +49,6 @@ submitButton.addEventListener("click", function() {
     // });
 
 });
-    
 
     
 
